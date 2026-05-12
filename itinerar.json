@@ -1,0 +1,405 @@
+{
+  "trip": {
+    "title": "Japonsko 2026",
+    "subtitle": "Rodinná cesta · říjen – listopad 2026",
+    "destinations": "Osaka · Nara · Hirošima · Miyajima · Kjóto · Tokio · Nikkó · Hakone",
+    "odjezd": "23.10.2026",
+    "navrat": "8.11.2026",
+    "pocet_dni": 15,
+    "pocet_destinaci": 8,
+    "pocet_cestujicich": 5,
+    "let_tam": {
+      "datum": "23. 10. 2026",
+      "trasa": "Praha → Osaka KIX",
+      "letecka_spolecnost": "Hainan Airlines",
+      "lety": "HU473 + HU7938"
+    },
+    "let_zpet": {
+      "datum": "8. 11. 2026",
+      "trasa": "Osaka KIX → Praha",
+      "letecka_spolecnost": "Asiana Airlines + Korean Air",
+      "lety": "OZ545 + KE738"
+    }
+  },
+
+  "dny": [
+    {
+      "num": 1,
+      "region": "osaka",
+      "title": "Přílet + Osaka",
+      "sub": "Umeda Sky Building, Dotonbori",
+      "foto_karty": "den01.jpg",
+      "popisek_karty": "Osaka — Dotonbori",
+      "galerie": [
+        { "src": "d01-foto1.jpg", "cap": "Umeda Sky Building" },
+        { "src": "d01-foto2.jpg", "cap": "Výhled z Umeda Sky" },
+        { "src": "d01-foto3.jpg", "cap": "Dotonbori — noční ulice" },
+        { "src": "d01-foto4.jpg", "cap": "Dotonbori — street food" }
+      ],
+      "highlights": [
+        {
+          "name": "Umeda Sky Building",
+          "desc": "Futuristická dvojvěž spojená průhlednou vyhlídkovou plošinou ve výšce 173 m — jeden z nejodvážnějších architektonických zážitků v Osace."
+        },
+        {
+          "name": "Dotonbori",
+          "desc": "Neonová tepna Osaky podél kanálu plná obřích 3D reklamních figur, pouličního jídla a nezaměnitelné energie japonského velkoměsta."
+        }
+      ],
+      "itinerar": [
+        { "time": "14:00", "text": "Přílet KIX" },
+        { "time": "15:30", "text": "Nankai Airport Express → Namba Station, check-in" },
+        { "time": "17:00", "text": "Umeda Sky Building — výhled na město" },
+        { "time": "18:30", "text": "Večeře v Dotonbori" },
+        { "time": "20:00", "text": "Dotonbori Food Walk — takoyaki, okonomiyaki, kushikatsu", "opt": "volitelné: Abeno Harukas 300" }
+      ]
+    },
+    {
+      "num": 2,
+      "region": "osaka",
+      "title": "Osaka",
+      "sub": "Kuromon Market, hrad, Shinsekai",
+      "foto_karty": "den02.jpg",
+      "popisek_karty": "Osaka — Shinsekai & Tsūtenkaku",
+      "galerie": [
+        { "src": "d02-foto1.jpg", "cap": "Kuromon Market" },
+        { "src": "d02-foto2.jpg", "cap": "Osaka Castle" },
+        { "src": "d02-foto3.jpg", "cap": "Výhled z Osaka Castle" },
+        { "src": "d02-foto4.jpg", "cap": "Shinsekai — Tsūtenkaku", "portrait": true },
+        { "src": "d02-foto5.jpg", "cap": "Shinsekai v noci" }
+      ],
+      "highlights": [
+        { "name": "Kuromon Market", "desc": "Živá tržnice přezdívaná \"kuchyně Osaky\" — 180 stánků s čerstvými mořskými plody, sushi a místními pochutinami." },
+        { "name": "Osaka Castle", "desc": "Majestátní hrad ze 16. století obklopený příkopem a parkem, s výhledem na podzimní Osaku z vrchního patra." },
+        { "name": "Shinsekai & Tsūtenkaku", "desc": "Retro čtvrť z počátku 20. století s ikonickou věží Tsūtenkaku — nejautentičtější a nejbarvitější kousek staré Osaky." }
+      ],
+      "itinerar": [
+        { "time": "09:00", "text": "Kuromon Market" },
+        { "time": "10:30", "text": "Osaka Castle — metro Tanimachi Line → Osakajokoen" },
+        { "time": "13:00", "text": "Shinsekai + Tsūtenkaku" },
+        { "time": "18:00", "text": "Večeře v Namba", "opt": "volitelné: Abeno Harukas 300" }
+      ]
+    },
+    {
+      "num": 3,
+      "region": "osaka",
+      "title": "Nara",
+      "sub": "Klaněcí jeleni, Todaiji, Kasugataisha",
+      "foto_karty": "den03.jpg",
+      "popisek_karty": "Nara Park",
+      "galerie": [
+        { "src": "d03-foto1.jpg", "cap": "Todaiji Temple" },
+        { "src": "d03-foto2.jpg", "cap": "Nara Park — podzimní panorama" },
+        { "src": "d03-foto3.jpg", "cap": "Kasuga Taisha — kamenné lucerny" },
+        { "src": "d03-foto4.jpg", "cap": "Nara Park — jelen v bráně" }
+      ],
+      "highlights": [
+        { "name": "Nara Park", "desc": "Rozlehlý park ve středu města, kde volně žijí stovky posvátných jelenů — nechají se krmit z ruky a na povel se klaní." },
+        { "name": "Todaiji Temple", "desc": "Největší dřevěná budova světa ukrývá 15 metrů vysokou bronzovou sochu Buddhy — jeden z nejohromujících chrámů v celém Japonsku." },
+        { "name": "Kasuga Taisha", "desc": "Šintoistický chrám v hlubokém lese lemovaný stovkami mechových kamenných luceren — místo ticha a neobyčejné atmosféry." }
+      ],
+      "itinerar": [
+        { "time": "09:00", "text": "Kintetsu Namba → Kintetsu Nara" },
+        { "time": "10:00", "text": "Nara Park — jeleni, kteří se klaní" },
+        { "time": "11:00", "text": "Todaiji Temple — obří Buddha" },
+        { "time": "13:00", "text": "Kasugataisha — chrám v lese" },
+        { "time": "15:00", "text": "Návrat do Osaky", "opt": "volitelné: Yoshiki-en Garden / Mount Wakakusa" }
+      ]
+    },
+    {
+      "num": 4,
+      "region": "hiroshima",
+      "title": "Himeji → Hirošima",
+      "sub": "Bílý hrad, Peace Museum",
+      "foto_karty": "den04.jpg",
+      "popisek_karty": "Hirošima — Peace Dome",
+      "galerie": [
+        { "src": "d04-foto1.jpg", "cap": "Himeji Castle" },
+        { "src": "d04-foto2.jpg", "cap": "Peace Memorial Park" },
+        { "src": "d04-foto3.jpg", "cap": "Hiroshima Peace Dome" },
+        { "src": "d04-foto4.jpg", "cap": "Shukkeien Japanese Garden" }
+      ],
+      "highlights": [
+        { "name": "Himeji Castle", "desc": "Nejkrásnější a nejlépe zachovaný hrad v Japonsku — bílý jako volavka, zapsaný na seznam UNESCO, viditelný z celého města." },
+        { "name": "Hiroshima Peace Dome", "desc": "Původní Průmyslový palác, jediná budova která přežila atomový výbuch v roce 1945 — dnes symbol míru a světové paměti." },
+        { "name": "Peace Memorial Museum", "desc": "Hluboce dojemné muzeum dokumentující události 6. srpna 1945 — povinná zastávka, která změní pohled na svět." },
+        { "name": "Shukkeien Japanese Garden", "desc": "Nádherná miniaturní japonská zahrada z roku 1620 s jezírkem, mosty a pavilony — oáza klidu uprostřed Hirošimy." }
+      ],
+      "itinerar": [
+        { "time": "08:00", "text": "Shinkansen Shin-Osaka → Himeji (30 min)" },
+        { "time": "08:30", "text": "Himeji Castle + Kokoen Garden" },
+        { "time": "12:30", "text": "Shinkansen Himeji → Hirošima (1,5 h)" },
+        { "time": "14:00", "text": "Peace Memorial Museum" },
+        { "time": "16:15", "text": "Shukkeien Garden" },
+        { "time": "18:30", "text": "Okonomimura", "opt": "volitelné: Hiroshima Castle" }
+      ]
+    },
+    {
+      "num": 5,
+      "region": "hiroshima",
+      "title": "Miyajima",
+      "sub": "Plovoucí torii, Mt. Misen",
+      "foto_karty": "den05.jpg",
+      "popisek_karty": "Miyajima — Itsukushima Shrine",
+      "galerie": [
+        { "src": "d05-foto1.jpg", "cap": "Miyajima — výhled na torii" },
+        { "src": "d05-foto2.jpg", "cap": "Itsukushima Shrine" },
+        { "src": "d05-foto3.jpg", "cap": "Itsukushima Shrine — sake barely" },
+        { "src": "d05-foto4.jpg", "cap": "Pagoda v Miyajimě", "portrait": true },
+        { "src": "d05-foto5.jpg", "cap": "Jeleni na Miyajimě" }
+      ],
+      "highlights": [
+        { "name": "Miyajima", "desc": "Posvátný ostrov v Seto Inland Sea kde volně žijí jeleni — jedno z nejfotogeničtějších míst celého Japonska." },
+        { "name": "Itsukushima Shrine", "desc": "Šintoistický chrám z roku 593 postavený na kůlech nad mořem — při přílivu jako by plaval, spolu s ikonickým plovoucím torii." },
+        { "name": "Mt. Misen", "desc": "Posvátná hora ostrova s lanovkou a výhledem na Vnitřní japonské moře — na vrcholu hoří věčný plamen zapálený před 1200 lety." },
+        { "name": "Momijidani Park & Daisho-in Temple", "desc": "Nádherný park s javory a buddhistický chrám plný malých sošek a zvonků — klidný kontrast k rušnějšímu pobřeží." }
+      ],
+      "itinerar": [
+        { "time": "09:00", "text": "JR Sanyo Line → Miyajimaguchi → trajekt" },
+        { "time": "09:30", "text": "Itsukushima Shrine — plovoucí torii" },
+        { "time": "11:00", "text": "Mt. Misen — lanovka, výhledy" },
+        { "time": "14:00", "text": "Momijidani Park + Daisho-in Temple" },
+        { "time": "17:00", "text": "Trajekt zpět → Hirošima" }
+      ]
+    },
+    {
+      "num": 6,
+      "region": "kyoto",
+      "title": "Hirošima → Kjóto",
+      "sub": "Kiyomizu-dera, Gion večer",
+      "foto_karty": "den06.jpg",
+      "popisek_karty": "Kjóto — Kiyomizu-dera",
+      "galerie": [
+        { "src": "d06-foto1.jpg", "cap": "Kiyomizu-dera — výhled na Kjóto" },
+        { "src": "d06-foto2.jpg", "cap": "Kiyomizu-dera — Seiryuden" },
+        { "src": "d06-foto3.jpg", "cap": "Gion — Yasaka Pagoda" },
+        { "src": "d06-foto4.jpg", "cap": "Gion — Ninenzaka" }
+      ],
+      "highlights": [
+        { "name": "Kiyomizu-dera", "desc": "Ikonický buddhistický chrám z 8. století postavený na svahu hory bez jediného hřebíku — výhled z proslulé dřevěné terasy sahá přes celé Kjóto." },
+        { "name": "Gion — Ninenzaka / Sannenzaka", "desc": "Historické dlážděné uličky lemované tradičními domy z období Edo — nejkrásnější zachovaná část starého Kjóta, ideální za soumraku." },
+        { "name": "Yasaka Pagoda", "desc": "Pětipodlažní pagoda z roku 592 tyčící se nad střechami Gionu — nejslavnější silueta Kjóta a neodolatelný fotografický motiv." }
+      ],
+      "itinerar": [
+        { "time": "09:00", "text": "Shinkansen Hiroshima → Kyoto (2 h)" },
+        { "time": "11:00", "text": "Check-in — Gion / Higashiyama oblast" },
+        { "time": "16:00", "text": "Kiyomizu-dera" },
+        { "time": "17:30", "text": "Ninenzaka / Sannenzaka, Yasaka Pagoda", "opt": "volitelné: Gion geisha spotting" },
+        { "time": "19:00", "text": "Čajový obřad v Gionu", "tip": "doporučeno" }
+      ]
+    },
+    {
+      "num": 7,
+      "region": "kyoto",
+      "title": "Fushimi Inari + Nishiki",
+      "sub": "Tisíce torii, kjótská kuchyně",
+      "foto_karty": "den07.jpg",
+      "popisek_karty": "Kjóto — Fushimi Inari Taisha",
+      "galerie": [
+        { "src": "d07-foto1.jpg", "cap": "Fushimi Inari Taisha — torii" },
+        { "src": "d07-foto2.jpg", "cap": "Fushimi Inari Taisha — liška kitsune" },
+        { "src": "d07-foto3.jpg", "cap": "Nishiki Market" },
+        { "src": "d07-foto4.jpg", "cap": "Pontocho Alley" }
+      ],
+      "highlights": [
+        { "name": "Fushimi Inari Taisha", "desc": "Tisíce vermilionových torii brán vinoucích se do kopce — nejfotogeničtější místo Kjóta, na vrcholu hory úžasný výhled na celé město." },
+        { "name": "Nishiki Market", "desc": "Úzká krytá tržnice přezdívaná \"kjótská kuchyně\" — stánky s tofu, nakládanou zeleninou, sladkostmi a vším co japonská gastronomie nabízí." },
+        { "name": "Philosopher's Path", "desc": "Klidná procházka podél kanálu lemovaného třešněmi — pojmenovaná po filozofu Nishida Kitaro, který tudy chodil meditovat každý den." },
+        { "name": "Pontocho Alley", "desc": "Úzká historická ulička plná restaurací a barů u řeky Kamo — jeden z nejromantičtějších večerních zážitků v celém Japonsku." }
+      ],
+      "itinerar": [
+        { "time": "08:00–10:00", "text": "Fushimi Inari Taisha (JR Nara Line: Kyoto Station → Inari Station)" },
+        { "time": "10:30–12:00", "text": "Nishiki Market (metro Karasuma Line → Shijo Station → Nishiki Market)" },
+        { "time": "17:00", "text": "Gion večer", "opt": "volitelné: Philosopher's Path — klidná procházka podél kanálu (před Nishiki Market), Pontocho Alley — večerní atmosféra u řeky, Gion geisha spotting (17:30–18:30)" }
+      ]
+    },
+    {
+      "num": 8,
+      "region": "kyoto",
+      "title": "Arashiyama",
+      "sub": "Bamboo Grove, Tenryuji, Monkey Park",
+      "foto_karty": "den08.jpg",
+      "popisek_karty": "Kjóto — Arashiyama Bamboo Grove",
+      "galerie": [
+        { "src": "d08-foto1.jpg", "cap": "Arashiyama Bamboo Grove" },
+        { "src": "d08-foto2.jpg", "cap": "Tenryuji Temple" },
+        { "src": "d08-foto3.jpg", "cap": "Řeka Hozu" },
+        { "src": "d08-foto4.jpg", "cap": "Togetsukyo Bridge" }
+      ],
+      "highlights": [
+        { "name": "Arashiyama", "desc": "Malebná čtvrť na okraji Kjóta u řeky Hozu — obklopená bambusovými háji, chrámy a horami, nejkrásnější na podzim." },
+        { "name": "Bamboo Forest", "desc": "Neskutečný tunel bambusů vysokých přes 20 metrů — světlo filtrované přes zelené stébla vytváří atmosféru jako z jiného světa." },
+        { "name": "Tenryuji Temple", "desc": "Chrám UNESCO s proslulou zahradou z 14. století — rybník, kameny a upravené stromy v dokonalé harmonii s horou v pozadí." },
+        { "name": "Monkey Park", "desc": "Na kopci nad Arashiyamou žije volně 120 japonských makaků — odtud je jeden z nejkrásnějších výhledů na celé Kjóto." },
+        { "name": "Řeka Hozu & Togetsukyo Bridge", "desc": "Ikonický dřevěný most přes řeku Hozu s podzimním zbarvením hor v pozadí — symbol Arashiyamy a jeden z nejfotografovanějších záběrů Kjóta." }
+      ],
+      "itinerar": [
+        { "time": "08:00", "text": "Bamboo Grove — JR Sanin Line → Saga-Arashiyama" },
+        { "time": "09:00", "text": "Tenryuji — chrám se zahradou" },
+        { "time": "10:30", "text": "Monkey Park — makakové s výhledem na Kjóto" },
+        { "time": "13:00", "text": "Řeka Hozu + most Togetsukyo", "opt": "volitelné: Sagano Scenic Railway, kimono" }
+      ]
+    },
+    {
+      "num": 9,
+      "region": "kyoto",
+      "title": "Sever Kjóta",
+      "sub": "Kinkakuji, Ryoanji, Nijo Castle",
+      "foto_karty": "den09.jpg",
+      "popisek_karty": "Kjóto — Kinkaku-ji",
+      "galerie": [
+        { "src": "d09-foto1.jpg", "cap": "Kinkaku-ji — zlatý pavilon" },
+        { "src": "d09-foto2.jpg", "cap": "Kinkaku-ji — podzimní zahrada" },
+        { "src": "d09-foto3.jpg", "cap": "Ryoan-ji — chrámová brána" },
+        { "src": "d09-foto4.jpg", "cap": "Nijo Castle" }
+      ],
+      "highlights": [
+        { "name": "Kinkaku-ji", "desc": "Zlatý pavilon pokrytý plátkovým zlatem se odráží v zrcadlové hladině rybníka — jeden z nejslavnějších pohledů celého Japonska." },
+        { "name": "Ryoan-ji", "desc": "Zenová kamenná zahrada z 15. století — 15 kamenů v bílém písku, jejichž uspořádání dodnes nikdo plně neobjasnil." },
+        { "name": "Nijo Castle", "desc": "Hrad šógunů z roku 1603 s proslulými \"slavičími podlahami\" které vrzají při každém kroku — bezpečnostní systém starý přes 400 let." }
+      ],
+      "itinerar": [
+        { "time": "09:00", "text": "Kinkakuji — zlatý pavilon" },
+        { "time": "10:15", "text": "Ryoanji — zahrada kamenů" },
+        { "time": "11:30", "text": "Nijo Castle — hrad se \"slavičími podlahami\"", "opt": "volitelné: Philosopher's Path, Imperial Palace" }
+      ]
+    },
+    {
+      "num": 10,
+      "region": "tokyo",
+      "title": "Tokio — příjezd",
+      "sub": "Shinjuku Gyoen, Shibuya Crossing",
+      "foto_karty": "den10.jpg",
+      "popisek_karty": "Tokio — Shibuya Crossing",
+      "galerie": [
+        { "src": "d10-foto1.jpg", "cap": "Shinjuku Gyoen Garden", "natural": true },
+        { "src": "d10-foto2.jpg", "cap": "Shinjuku Gyoen Garden", "natural": true },
+        { "src": "d10-foto3.jpg", "cap": "Shibuya Crossing" },
+        { "src": "d10-foto4.jpg", "cap": "Shibuya Sky" },
+        { "src": "d10-foto5.jpg", "cap": "Shinjuku", "natural": true },
+        { "src": "d10-foto6.jpg", "cap": "Shinjuku", "natural": true }
+      ],
+      "highlights": [
+        { "name": "Shinjuku Gyoen Garden", "desc": "Jeden z nejkrásnějších japonských zahradních parků v centru Tokia — japonská, francouzská i anglická zahrada v jednom, oáza klidu uprostřed velkoměsta." },
+        { "name": "Shibuya Crossing", "desc": "Největší přechod pro chodce na světě — při každém zeleném světle se kříží tisíce lidí ze všech směrů najednou, úžasný pohled ze terasy nahoře." },
+        { "name": "Shibuya Sky", "desc": "Vyhlídková plošina na střeše věže Scramble Square ve výšce 230 m — 360° panorama celého Tokia, včetně výhledu na horu Fuji za jasného počasí." },
+        { "name": "Shinjuku", "desc": "Největší nádraží světa obklopené neonovou čtvrtí Kabukicho, tichými parky a úzkými izakaya uličkami — Tokio v celé své rozmanitosti." }
+      ],
+      "itinerar": [
+        { "time": "09:00", "text": "Shinkansen Kyoto → Tokyo (2 h 15 min)" },
+        { "time": "11:30", "text": "Check-in — Shinjuku nebo Shibuya" },
+        { "time": "14:00", "text": "Shinjuku Gyoen" },
+        { "time": "16:00", "text": "Shibuya Crossing — nejrušnější přechod světa" },
+        { "time": "18:00", "text": "Shibuya Sky / Shinjuku večer", "opt": "volitelné: Tokyo Metropolitan Gov. Observatory (zdarma)" }
+      ]
+    },
+    {
+      "num": 11,
+      "region": "tokyo",
+      "title": "Asakusa + Akihabara",
+      "sub": "Senso-ji za rozbřesku, sushi, Meiji",
+      "foto_karty": "den11.jpg",
+      "popisek_karty": "Tokio — Asakusa",
+      "galerie": [],
+      "highlights": [],
+      "itinerar": [
+        { "time": "05:30", "text": "Senso-ji Temple — chrám bez davů" },
+        { "time": "08:00", "text": "Tsukiji — sushi snídaně" },
+        { "time": "10:00", "text": "Meiji Jingu — chrám v lese" },
+        { "time": "15:00", "text": "Akihabara — elektronika, anime", "opt": "volitelné: Odaiba večer" }
+      ]
+    },
+    {
+      "num": 12,
+      "region": "tokyo",
+      "title": "Nikkó",
+      "sub": "Toshogu, Lake Chuzenji, vodopády",
+      "foto_karty": "den12.png",
+      "popisek_karty": "Nikkó — Shinkyo Bridge",
+      "galerie": [],
+      "highlights": [],
+      "itinerar": [
+        { "time": "08:00", "text": "Tobu Railway: Asakusa → Tobu-Nikko (2 h)" },
+        { "time": "10:00", "text": "Toshogu Shrine" },
+        { "time": "14:00", "text": "Lake Chuzenji + Kegon Falls" },
+        { "time": "18:00", "text": "Návrat do Tokia", "opt": "volitelné: Kanaya Hotel, Shinkyo Bridge" }
+      ]
+    },
+    {
+      "num": 13,
+      "region": "hakone",
+      "title": "Tokio → Hakone",
+      "sub": "TeamLab Planets, onsen, ryokan",
+      "foto_karty": "den13.jpg",
+      "popisek_karty": "Tokio — TeamLab Planets",
+      "galerie": [],
+      "highlights": [],
+      "itinerar": [
+        { "time": "10:00", "text": "TeamLab Planets (Toyosu)", "tip": "dopoledne — méně lidí" },
+        { "time": "14:00", "text": "Shinkansen Tokyo → Odawara (35–40 min)" },
+        { "time": "14:45", "text": "Hakone Tozan Railway → Hakone-Yumoto" },
+        { "time": "16:00", "text": "Onsen, relax" },
+        { "time": "18:00", "text": "Večeře v ryokanu" }
+      ]
+    },
+    {
+      "num": 14,
+      "region": "hakone",
+      "title": "Hakone — Fuji & sopka",
+      "sub": "Ropeway, Owakudani, pirátská loď",
+      "foto_karty": "den14.jpg",
+      "popisek_karty": "Hakone — výhled na Fuji",
+      "galerie": [],
+      "highlights": [],
+      "itinerar": [
+        { "time": "09:00", "text": "Hakone Ropeway → Owakudani", "tip": "pro děti super" },
+        { "time": "10:00", "text": "Owakudani — sopka, černá vejce, Fuji" },
+        { "time": "11:00", "text": "Ropeway → Togendai (Lake Ashi)" },
+        { "time": "13:00", "text": "Pirátská loď na Lake Ashi", "tip": "děti milují!" },
+        { "time": "14:00", "text": "Hakone Shrine — torii u vody" },
+        { "time": "17:00", "text": "Onsen + relax" }
+      ]
+    },
+    {
+      "num": 15,
+      "region": "hakone",
+      "title": "Hakone → Praha",
+      "sub": "Open Air Museum, odlet",
+      "foto_karty": "den15.jpg",
+      "popisek_karty": "Osaka — Namba",
+      "galerie": [],
+      "highlights": [],
+      "itinerar": [
+        { "time": "08:00", "text": "Hakone Open-Air Museum / poslední onsen" },
+        { "time": "10:00", "text": "Hakone Tozan Railway → Odawara" },
+        { "time": "12:00", "text": "Shinkansen Odawara → Shin-Osaka (2 h)" },
+        { "time": "odpoledne", "text": "Volno v Osace — Dotonbori, Namba" },
+        { "time": "21:30", "text": "Nankai Line: Namba → KIX (45 min)" }
+      ]
+    }
+  ],
+
+  "highlights_deti": [
+    { "name": "TeamLab Planets", "loc": "Tokio — Den 13", "desc": "Interaktivní světelné instalace — voda, zrcadla, digitální květiny.", "photo": "hl-teamlab.jpg" },
+    { "name": "Hakone Ropeway + sopka", "loc": "Hakone — Den 14", "desc": "Lanovka nad krátery, sirné páry, černá vejce, výhledy na Fuji.", "photo": "hl-hakone-ropeway.jpg" },
+    { "name": "Pirátská loď", "loc": "Hakone — Den 14", "desc": "Velká pirátská loď na jezeře — hra na piráty v reálném světě.", "photo": "hl-piratska-lod.jpg" },
+    { "name": "Nara — klaněcí jeleni", "loc": "Nara — Den 3", "desc": "Děti krmí jeleny, kteří se jim opravdu ukloní.", "photo": "hl-nara-jeleni.jpg" },
+    { "name": "Monkey Park", "loc": "Arashiyama — Den 8", "desc": "Volně žijící makakové + výhled na celé Kjóto.", "photo": "hl-monkey-park.jpg" },
+    { "name": "Shibuya Crossing", "loc": "Tokio — Den 10", "desc": "Nejrušnější přechod světa — energie, světla, chaos.", "photo": "hl-shibuya.jpg" },
+    { "name": "Senso-ji za rozbřesku", "loc": "Tokio — Den 11", "desc": "Chrám bez davů — magické světlo brzkého rána.", "photo": "hl-sensoji.jpg" },
+    { "name": "Miyajima — ostrov", "loc": "Hirošima — Den 5", "desc": "Plovoucí torii, lanovka, kouzelný ostrov v moři.", "photo": "hl-miyajima.jpg" },
+    { "name": "Dotonbori večer", "loc": "Osaka — Den 1", "desc": "Neony, jídlo, hluk, barvy — jako Disneyland.", "photo": "hl-dotonbori.jpg" },
+    { "name": "Rodinný onsen", "loc": "Hakone — Den 13–14", "desc": "Teplá voda, klid, relax. Zážitek, který doma nezažijí.", "photo": "hl-onsen.jpg" }
+  ],
+
+  "japonske_malickosti": [
+    "vending machines na každém rohu",
+    "Shinkansen — rychlost a čistota",
+    "kawaii obchody v Tokiu",
+    "gashapon automaty",
+    "matcha & mochi",
+    "melon pan",
+    "samurajské meče v Asakuse",
+    "razítka na stanicích"
+  ]
+}
