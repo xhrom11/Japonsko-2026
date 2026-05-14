@@ -320,10 +320,94 @@ nav {
 /* FOOTER */
 footer { text-align: center; padding: 3rem; border-top: 1px solid var(--paper-mid); background: var(--ink); color: rgba(255,255,255,0.2); font-size: 13px; letter-spacing: 0.1em; font-family: var(--serif); }
 
-/* RESPONSIVE */
-@media (max-width: 1100px) { .days-grid { grid-template-columns: repeat(4, 1fr); } }
-@media (max-width: 860px) { .days-grid { grid-template-columns: repeat(3, 1fr); } .detail-inner { grid-template-columns: 1fr; } .detail-photo-col { height: 220px; } .detail-overlay { background: linear-gradient(to bottom, transparent 50%, var(--paper-warm)); } }
-@media (max-width: 600px) { nav { padding: 0 1.25rem; } .nav-btn { padding: 8px 10px; font-size: 10px; } .hero-content { padding: 0 1.5rem 2.5rem; } .hero-title { font-size: 40px; } .hero-stats { gap: 1.5rem; } .days-grid { grid-template-columns: repeat(2, 1fr); } .section-label, .tabs-wrap { padding-left: 1.5rem; padding-right: 1.5rem; } .detail-text { padding: 1.5rem; } .hl-hero-content, .tips-hero-content, .bonus-section { padding-left: 1.5rem; padding-right: 1.5rem; } }
+/* RESPONSIVE — TABLET */
+@media (max-width: 1100px) {
+  .days-grid { grid-template-columns: repeat(4, 1fr); }
+  .tip-detail-inner { max-width: 90% !important; }
+}
+
+@media (max-width: 860px) {
+  .days-grid { grid-template-columns: repeat(3, 1fr); }
+  .detail-inner { grid-template-columns: 1fr; }
+  .detail-photo-col { height: 220px; }
+  .detail-overlay { background: linear-gradient(to bottom, transparent 50%, var(--paper-warm)); }
+  .tip-detail-bottom { grid-template-columns: 1fr !important; }
+  .tip-detail-inner { max-width: 95% !important; }
+}
+
+/* RESPONSIVE — MOBIL */
+@media (max-width: 600px) {
+  /* Navigace — scrollovatelná */
+  nav { padding: 0 0; height: auto; flex-direction: column; align-items: stretch; }
+  .nav-logo { padding: 12px 1.25rem 8px; font-size: 16px; border-bottom: 1px solid var(--paper-mid); }
+  .nav-links { display: flex; overflow-x: auto; -webkit-overflow-scrolling: touch; padding: 0 0.5rem; gap: 0; scrollbar-width: none; }
+  .nav-links::-webkit-scrollbar { display: none; }
+  .nav-btn { padding: 10px 10px; font-size: 10px; white-space: nowrap; flex-shrink: 0; }
+  .page { padding-top: 90px; }
+
+  /* Hero */
+  .hero { height: 55vw; min-height: 240px; }
+  .hero-title { font-size: 28px; letter-spacing: 0.02em; }
+  .hero-sub { font-size: 12px; }
+  .hero-content { padding: 0 1.25rem 2rem; }
+  .hero-stats { gap: 1rem; flex-wrap: wrap; }
+  .stat-num { font-size: 18px; }
+  .stat-label { font-size: 9px; }
+  .hero-scroll { display: none; }
+
+  /* Flight strip */
+  .flight-strip { flex-direction: column; gap: 4px; padding: 8px 1.25rem; font-size: 10px; }
+  .flight-sep { display: none; }
+
+  /* Itinerář — karty dnů */
+  .days-grid { grid-template-columns: repeat(2, 1fr); gap: 8px; padding: 1rem 1rem; }
+  .day-card { border-radius: 6px; }
+  .section-label { padding-left: 1rem; padding-right: 1rem; font-size: 10px; }
+  .tabs-wrap { padding-left: 1rem; padding-right: 1rem; gap: 6px; }
+  .tab-btn { font-size: 10px; padding: 4px 10px; }
+
+  /* Detail panel */
+  .detail-inner { grid-template-columns: 1fr; }
+  .detail-photo-col { height: 200px; }
+  .detail-text { padding: 1.25rem; }
+  .detail-title { font-size: 20px; }
+  .detail-sub { font-size: 11px; }
+  .detail-transport-row { font-size: 12px; }
+  .tl-opt { font-size: 11px; }
+  .tl-time { font-size: 11px; min-width: 40px; }
+  .tl-text { font-size: 12px; }
+
+  /* Highlights */
+  .hl-hero { height: 35vw; min-height: 180px; }
+  .hl-hero-content { padding-left: 1.25rem; padding-right: 1.25rem; }
+  .hl-grid { grid-template-columns: repeat(2, 1fr) !important; gap: 8px; padding: 1rem; }
+  .hl-card-name { font-size: 11px; }
+
+  /* Tipy */
+  .tips-hero { height: 35vw; min-height: 160px; }
+  .tips-hero-content { padding-left: 1.25rem; padding-right: 1.25rem; }
+  .tips-hero-title { font-size: 26px; }
+  .tips-grid { grid-template-columns: repeat(2, 1fr) !important; gap: 8px; padding: 1rem; }
+  .tip-label { font-size: 13px; }
+  .tip-detail-inner { max-width: 100% !important; padding: 1rem !important; }
+  .tip-detail-bottom { grid-template-columns: 1fr !important; gap: 1rem; }
+  .tip-detail-section-title { font-size: 15px; }
+  .tip-row span:last-child { font-size: 12px; }
+  .tip-metro-map img { border-radius: 2px; }
+
+  /* Otevírací doby */
+  .tip-detail-sections { gap: 1rem; }
+
+  /* Mapy */
+  .tip-detail-bottom iframe { height: 280px !important; }
+}
+
+@media (max-width: 380px) {
+  .hero-title { font-size: 22px; }
+  .days-grid { grid-template-columns: 1fr 1fr; gap: 6px; }
+  .tips-grid { grid-template-columns: 1fr 1fr !important; }
+  .hl-grid { grid-template-columns: 1fr 1fr !important; }
+}
 
 .day-alert-badge { font-size: 12px; margin-left: 6px; vertical-align: middle; }
 .lucky-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 6px; margin: 1rem 0 0.5rem; }
