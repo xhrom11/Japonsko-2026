@@ -377,11 +377,16 @@ footer { text-align: center; padding: 3rem; border-top: 1px solid var(--paper-mi
   .tl-time { font-size: 11px; min-width: 40px; }
   .tl-text { font-size: 12px; }
 
-  /* Highlights */
-  .hl-hero { height: 35vw; min-height: 180px; }
-  .hl-hero-content { padding-left: 1.25rem; padding-right: 1.25rem; }
+  /* Pro děti — 2×5 grid */
   .hl-grid { grid-template-columns: repeat(2, 1fr) !important; gap: 8px; padding: 1rem; }
   .hl-card-name { font-size: 11px; }
+
+  /* Japonské maličkosti — 2×4 grid */
+  .bonus-tags { grid-template-columns: repeat(2, 1fr) !important; gap: 10px; }
+  .bonus-section { padding: 1.5rem 1rem; }
+
+  /* Užitečné weby — jeden sloupec */
+  .weby-grid { grid-template-columns: 1fr !important; }
 
   /* Tipy */
   .tips-hero { height: 35vw; min-height: 160px; }
@@ -407,6 +412,8 @@ footer { text-align: center; padding: 3rem; border-top: 1px solid var(--paper-mi
   .days-grid { grid-template-columns: 1fr 1fr; gap: 6px; }
   .tips-grid { grid-template-columns: 1fr 1fr !important; }
   .hl-grid { grid-template-columns: 1fr 1fr !important; }
+  .bonus-tags { grid-template-columns: 1fr 1fr !important; }
+  .weby-grid { grid-template-columns: 1fr !important; }
 }
 
 .day-alert-badge { font-size: 12px; margin-left: 6px; vertical-align: middle; }
@@ -1242,7 +1249,7 @@ footer { text-align: center; padding: 3rem; border-top: 1px solid var(--paper-mi
       <div class="tip-detail-bottom" style="margin-top:1.5rem; grid-template-columns:1fr;">
         <div class="tip-detail-section">
           <div class="tip-detail-section-title">🌐 Užitečné weby během cesty</div>
-          <div style="display:grid; grid-template-columns:1fr 1fr; gap:0;">
+          <div style="display:grid; grid-template-columns:1fr 1fr; gap:0;" class="weby-grid">
             <div>
               <div class="tip-row"><span class="tip-row-icon">🌐</span><span><strong>Japan Guide</strong> — nejkomplexnější průvodce, doprava, atrakce, aktuální info. <a href="https://www.japan-guide.com" target="_blank" style="color:var(--red)">japan-guide.com →</a></span></div>
               <div class="tip-row"><span class="tip-row-icon">🏯</span><span><strong>JNTO</strong> — japonský turistický úřad, Visitor Hotline, průvodci. <a href="https://www.jnto.go.jp" target="_blank" style="color:var(--red)">jnto.go.jp →</a></span></div>
