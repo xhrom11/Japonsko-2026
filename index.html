@@ -1570,13 +1570,15 @@ const days = [
     {time:'16:00', text:'Trajekt zpět → Hirošima (JR West Ferry)', tip:'JR West Ferry zdarma s KH Passem — jede každých 10–15 min, plavba 10 min. Z Miyajimaguchi pak JR Sanyo Line zpět na Hiroshima Station (28 min, s KH Passem zdarma) nebo přestup na Hiroden tramvaj k hotelu.'},
     {time:'17:30', text:'Návrat do Hirošimy — večeře v centru', tip:'Hirošimské okonomiyaki — pokud jste ho nestihli včera. Nebo Okonomi-mura (budova plná stánků) nebo lokální restaurace u hotelu. Čeká klidný večer.'},
   ]},
-  { num:6, alert:{type:'info', text:'Stromy okolo Kiyomizudera jsou koncem října ještě zelené — vrchol podzimního listí nastane až v druhé polovině listopadu.'}, transport:[
+  { num:6, alert:{type:'info', text:'Stromy okolo Kiyomizudera jsou koncem října ještě zelené — vrchol podzimního listí nastane až v druhé polovině listopadu. Čajový obřad: rezervovat předem na <a href="https://gion-orizuruya.com" target="_blank" style="color:var(--red)">gion-orizuruya.com</a> — rezervováno, slot 15:30–17:00.'}, transport:[
       { icon:'🚅', text:'Hirošima → Shin-Osaka: Sanyo Shinkansen Hikari nebo Sakura (1h 10 min, s KH Passem zdarma). Vlaky každých 15–20 min.' },
       { icon:'🚅', text:'Shin-Osaka → Kjóto: JR Kyoto Line místní vlak (30 min, s KH Passem zdarma). Přestup v Shin-Osaka — celkem Hirošima→Kjóto cca 1h 40 min.', note:'Přímý Nozomi do Kjóta existuje, ale úsek Shin-Osaka→Kjóto leží na Tokaido Shinkansen mimo KH Pass oblast. Ověřte možnosti u přepážky JR West při aktivaci passu.' },
-      { icon:'🧳', text:'WeBase Kyoto (Shijo čtvrť, 300 m od metra Shijo): check-in od 15:00. Samoobslužná úschovna zavazadel dostupná ihned po příjezdu — odložte zavazadla a jděte rovnou na Kiyomizudera. Check-in vyřiďte večer po návratu.' },
-      { icon:'🚌', text:'Kjóto Station → Kiyomizudera: autobus č. 100 nebo 206 z nástupišť na severní straně (Karasuma strana) → zastávka Gojo-zaka nebo Kiyomizu-michi (15 min, 240 ¥). Nebo taxi ~10 min (~1 000 ¥).' },
-      { icon:'🚶', text:'Kiyomizudera → Ninenzaka → Sannenzaka → Gion Hanamikoji: pěšky ~20 min z chrámu dolů historickými uličkami — přirozená trasa bez dopravy.' },
-    ], hours:[{icon:'⛩', text:'Kiyomizudera: denně 6:00–18:00, vstupné 500 ¥'}, {icon:'🏮', text:'Gion — Hanamikoji: 24/7, nejatmosféričtější večer od 18:00'}, {icon:'🏘', text:'Ninenzaka & Sannenzaka: 24/7, obchody 9:00–18:00'}], date:'čt 29.10.', region:'kyoto', title:'Hirošima → Kjóto', sub:'Kiyomizu-dera, Gion večer',
+      { icon:'🧳', text:'WeBase Kyoto: příjezd ~11:00 — zavazadla do samoobslužné úschovny na recepci (zdarma, dostupná ihned). Check-in až večer po návratu — WeBase má samoobslužný check-in, funguje kdykoli.' },
+      { icon:'🚌', text:'Kyoto Station → Kiyomizudera: autobus č. 100 nebo 206 ze severní strany nádraží (Karasuma strana) → zastávka Gojo-zaka nebo Kiyomizu-michi (15 min, 240 ¥). Nebo taxi ~10 min (~1 000 ¥).' },
+      { icon:'🚶', text:'Kiyomizudera → Ninenzaka → Sannenzaka → Yasaka Pagoda → Gion Hanamikoji: celá trasa pěšky dolů z kopce — přirozená historická procházka ~2 km, bez dopravy. GION Orizuruya je přímo v Gionů na této trase (572-7 Minamigawa Gion-cho, 4 min od Gion-Shijo).' },
+      { icon:'🍵', text:'Čajový obřad GION Orizuruya: slot 15:30–17:00 (60 min). Rezervace online — <a href="https://gion-orizuruya.com" target="_blank" style="color:var(--red)">gion-orizuruya.com</a> → reserva.be. Adresa: 572-7 Minamigawa Gion-cho, Higashiyama — 4 min pěšky od Gion-Shijo, 5 min od Yasaka Pagody.' },
+      { icon:'🍜', text:'Večeře v Gionu nebo Pontocho přímo po obřadu — zůstáváte ve stejné čtvrti. Pontocho Alley: úzká ulička u řeky Kamo, restaurace od 17:00. Nebo Gion Hanamikoji — tradičnější atmosféra.' },
+    ], hours:[{icon:'⛩', text:'Kiyomizudera: denně 6:00–18:00, vstupné 500 ¥'}, {icon:'🏮', text:'Gion — Hanamikoji: 24/7, nejatmosféričtější večer od 18:00'}, {icon:'🏘', text:'Ninenzaka & Sannenzaka: 24/7, obchody 9:00–18:00'}, {icon:'🍵', text:'GION Orizuruya: slot 15:30–17:00, rezervace nutná — <a href="https://gion-orizuruya.com" target="_blank" style="color:var(--red)">gion-orizuruya.com</a>'}], date:'čt 29.10.', region:'kyoto', title:'Hirošima → Kjóto', sub:'Kiyomizu-dera, čajový obřad, Gion',
     detailPhotoPosition: '30% top',
     gallery: [
       { src:'d06-foto1.jpg', cap:'Kiyomizu-dera — výhled na Kjóto' },
@@ -1585,23 +1587,32 @@ const days = [
       { src:'d06-foto4.jpg', cap:'Gion — Ninenzaka', natural: true },
     ],
     highlights: [
-      { name:'Kiyomizu-dera', desc:'Ikonický buddhistický chrám z 8. století postavený na svahu hory bez jediného hřebíku — výhled z proslulé dřevěné terasy sahá přes celé Kjóto.' },
+      { name:'Kiyomizu-dera', desc:'Ikonický buddhistický chrám z 8. století postavený na svahu hory bez jediného hřebíku — výhled z proslulé dřevené terasy sahá přes celé Kjóto.' },
       { name:'Gion — Ninenzaka / Sannenzaka', desc:'Historické dlážděné uličky lemované tradičními domy z období Edo — nejkrásnější zachovaná část starého Kjóta, ideální za soumraku.' },
       { name:'Yasaka Pagoda', desc:'Pětipodlažní pagoda z roku 592 tyčící se nad střechami Gionu — nejslavnější silueta Kjóta a neodolatelný fotografický motiv.' },
+      { name:'GION Orizuruya — čajový obřad', desc:'Autentický čajový obřad v historické čajovně přímo v Gionu. Hostitelka v kimonu předvede přípravu matcha, každý si čaj sám připraví a vypije s wagashi (tradiční japonská sladkost). Obřad trvá 60 min — klidné tempo, vhodné i pro děti.' },
     ],
     items:[
-    {time:'09:00', text:'Shinkansen Hiroshima → Kyoto (2 h)'},
-    {time:'11:00', text:'Check-in — Gion / Higashiyama oblast'},
-    {time:'16:00', text:'Kiyomizu-dera'},
-    {time:'17:30', text:'Ninenzaka / Sannenzaka, Yasaka Pagoda', opt:'volitelné: Gion geisha spotting'},
-    {time:'19:00', text:'Čajový obřad v Gionu', tip:'doporučeno'},
-  ]},
-  { num:7, alert:null, transport:[
-      { icon:'🚃', text:'WeBase Kyoto → Fushimi Inari: pěšky 5 min na Karasuma Station (metro) → Karasuma Line → Kyoto Station (2 min, 220 ¥). Pak JR Nara Line z Kyoto Station → Inari Station (5 min, s KH Passem zdarma). Stanice Inari je přímo u vchodu do chrámu.' },
-      { icon:'💡', text:'Alternativa: z WeBase pěšky 10 min na Kyoto Station, pak JR Nara Line na Inari (5 min). Celkem ~20 min od hotelu.', note:'KH Pass platí dnes (den 7, pátek 30.10.) — JR Inari zdarma. Metro Karasuma platit IC kartou zvlášť (220 ¥).' },
-      { icon:'🚶', text:'Fushimi Inari → Nishiki Market: JR Nara Line zpět na Kyoto Station, pak metro Karasuma Line na Shijo (2 min, 220 ¥). Nebo přestup přímo na Fushimi Station (Kintetsu) → Shijo-Karasuma (12 min, 280 ¥, mimo KH Pass).' },
-      { icon:'🚶', text:'Nishiki Market → Gion Hanamikoji: pěšky ~15 min přes Shijo-dori na východ, přes most Shijo-Ohashi přes řeku Kamo.' },
-    ], hours:[{icon:'⛩', text:'Fushimi Inari: otevřeno 24/7, vstup zdarma — nejlepší brzy ráno nebo večer'}, {icon:'🍱', text:'Nishiki Market: obchody 9:00–18:00 (některé do 20:00)'}, {icon:'🏮', text:'Pontocho Alley: restaurace od 17:00 do noci'}], date:'pá 30.10.', region:'kyoto', title:'Fushimi Inari + Nishiki', sub:'Tisíce torii, kjótská kuchyně',
+      {time:'09:00', text:'Shinkansen Hirošima → Kjóto (1h 40 min)', tip:'Hikari nebo Sakura z Hiroshima Station s KH Passem. Přestup v Shin-Osaka na JR Kyoto Line (30 min). Příjezd Kyoto Station ~11:00.'},
+      {time:'11:00', text:'WeBase Kyoto — uložit zavazadla, jít rovnou ven', tip:'Samoobslužná ýschovna na recepci zdarma. Check-in vydřídíš večer — samoobslužný systém funguje kdykoli. Hotel je 10 min pěšky nebo 2 min metrem od Kyoto Station.'},
+      {time:'11:30', text:'Autobus na Kiyomizudera', tip:'Autobus č. 100 nebo 206 ze severní strany Kyoto Station → zastávka Gojo-zaka (15 min, 240 ¥). Pak 10 min pěšky do kopce.'},
+      {time:'12:00', text:'Kiyomizudera — chrám na svahu hory', tip:'Vstupné 500 ¥/os. Výhled z dřevené terasy na celé Kjóto. Okashidokoro (sladkarna) přímo v areálu — ideální zastávka s dětmi. Počítej 60–75 min.'},
+      {time:'13:30', text:'Ninenzaka → Sannenzaka → Yasaka Pagoda', tip:'Pěšky dolů z chrámu historickými dlážděnými uličkami — přirozená trasa bez dopravy. Obchůdky se suvenýry, matcha zmrzlina, tradičními sladkostmi. Yasaka Pagoda je na konci Sannenzaky — nejlepší foto odtud.'},
+      {time:'15:30', text:'Čajový obřad — GION Orizuruya', tip:'Adresa: 572-7 Minamigawa Gion-cho, Higashiyama — 4 min pěšky od Gion-Shijo, 5 min od Yasaka Pagody. Trvá 60 min (slot 15:30–17:00). Hostitelka v kimonu připraví matcha, dostanete wagashi. Rezervováno! Web: <a href="https://gion-orizuruya.com" target="_blank" style="color:var(--red)">gion-orizuruya.com</a>. Přijít 5 min před časem.'},
+      {time:'17:00', text:'Gion Hanamikoji — procházka při rozsvícení luceren', tip:'Hlavní ulice Gionu — nejatmosféričtější od 17:30 kdy se rozsvítí lucerny. Geisha občas prochází do čajovny.', opt:'Volitelné: geisha spotting 17:30–18:30 — stát tiše u rohu Hanamikoji a Shijo-dori.'},
+      {time:'18:00', text:'Večeře v Gionu nebo Pontocho Alley', tip:'Pontocho: úzká ulička u řeky Kamo, 5 min pěšky ze Gionu přes most Shijo-Ohashi. Desítky restaurací — tradiční kjótská kuchyně. S dětmi doporučujeme Pontocho — uvolněnější atmosféra.'},
+      {time:'19:30', text:'Zpět do WeBase — check-in', tip:'Pěšky nebo metrem Keihan Line ze Gion-Shijo → Shijo (1 min) nebo přímá procházka podleí Shijo-dori ~15 min. Samoobslužný check-in na recepci.'},
+    ],
+  },
+    { num:7, alert:null, transport:[
+      { icon:'🚶', text:'WeBase Kyoto → Fushimi Inari: pěšky 10 min na Kyoto Station, pak JR Nara Line → Inari Station (5 min, s KH Passem zdarma). Stanice je přímo u vchodu.' },
+      { icon:'🚶', text:'Fushimi Inari → Nishiki Market: JR Nara Line zpět na Kyoto Station (5 min), pak metro Karasuma Line → Shijo (2 min, 220 ¥). Nishiki Market je 2 min pěšky od stanice.' },
+      { icon:'🚶', text:'Nishiki Market → Nanzenji: metro Karasuma Line → Keage (15 min, 260 ¥). Nanzenji je 5 min pěšky od stanice Keage.', note:'Nebo autobus 5 ze Shijo-Kawaramachi → Nanzenji-Eikando-michi (~20 min, 230 ¥).' },
+      { icon:'🚶', text:"Nanzenji → Philosopher's Path → Ginkakuji: celá trasa pěšky 2 km severním směrem podél kanálu, končí u Ginkakuji (Stříb. pavilon)." },
+      { icon:'🚌', text:'Ginkakuji → Pontocho: autobus 17 nebo 203 ze zastávky Ginkakuji-michi → Kawaramachi-Sanjo (20 min, 230 ¥), pak pěšky 5 min na Pontocho Alley.' },
+      { icon:'🏨', text:'Pontocho → WeBase Kyoto: pěšky ~15 min nebo metro Keihan Line ze Gion-Shijo → Shijo (1 min, 170 ¥).' },
+    ], hours:[{icon:'⛩', text:'Fushimi Inari: otevřeno 24/7, vstup zdarma — nejlepší brzy ráno (před 8:00)'}, {icon:'🍱', text:'Nishiki Market: obchody 9:00–18:00 (některé do 20:00)'}, {icon:'⛩', text:'Nanzenji: 8:30–17:00, hlavní brána zdarma, areál 500 ¥'}, {icon:'🏮', text:'Pontocho Alley: restaurace od 17:00 do noci'}], date:'pá 30.10.', region:'kyoto', title:'Fushimi Inari, Nanzenji, Pontocho', sub:'Torii brány, Philosopher’s Path, večeře u řeky',
+    detailPhotoPosition: '30% top',
     gallery: [
       { src:'d07-foto1.jpg', cap:'Fushimi Inari Taisha — torii' },
       { src:'d07-foto2.jpg', cap:'Fushimi Inari Taisha — liška kitsune' },
@@ -1609,24 +1620,27 @@ const days = [
       { src:'d07-foto4.jpg', cap:'Pontocho Alley' },
     ],
     highlights: [
-      { name:'Fushimi Inari Taisha', desc:'Tisíce vermilionových torii brán vinoucích se do kopce — nejfotogeničtější místo Kjóta, na vrcholu hory úžasný výhled na celé město.' },
-      { name:'Nishiki Market', desc:'Úzká krytá tržnice přezdívaná "kjótská kuchyně" — stánky s tofu, nakládanou zeleninou, sladkostmi a vším co japonská gastronomie nabízí.' },
-      { name:'Philosopher\'s Path', desc:'Klidná procházka podél kanálu lemovaného třešněmi — pojmenovaná po filozofu Nishida Kitaro, který tudy chodil meditovat každý den.' },
-      { name:'Pontocho Alley', desc:'Úzká historická ulička plná restaurací a barů u řeky Kamo — jeden z nejromantičtějších večerních zážitků v celém Japonsku.' },
+      { name:'Fushimi Inari Taisha', desc:'Tisíce vermilionových torii brán vinoucích se do kopce — nejfotogeničtější místo Kjóta, ráno bez davu.' },
+      { name:'Nishiki Market', desc:'Úzká krytá tržnice přezdívaná „kjótská kuchyně“ — stánky s tofu, nakládanou zeleninou, sladkostmi a wagashi.' },
+      { name:'Nanzenji + Philosopher’s Path', desc:'Impozantní chrámový komplex s akvaduktm a klidná 2km procházka podél kanálu lemovaného třešněmi až ke Stříbrnému pavilonu.' },
+      { name:'Pontocho Alley', desc:'Úzká historická ulička plná restaurací u řeky Kamo — jeden z nejromantičtějších večerních zážitků celého Japonska.' },
     ],
     items:[
-    {time:'08:00–10:00', text:'Fushimi Inari Taisha (JR Nara Line: Kyoto Station → Inari Station)'},
-    {time:'10:30–12:00', text:'Nishiki Market (metro Karasuma Line → Shijo Station → Nishiki Market)'},
-    {time:'17:00', text:'Gion večer', opt:'volitelné: Philosopher\'s Path — klidná procházka podél kanálu (před Nishiki Market), Pontocho Alley — večerní atmosféra u řeky, Gion geisha spotting (17:30–18:30)'},
+      {time:'07:30', text:'Fushimi Inari Taisha — torii brány', tip:'Dorazit před 8:00 — ráno je chrám klidný, dav přichází od 9:00. JR Nara Line z Kyoto Station → Inari (5 min, s KH Passem zdarma). Brány vedou 4 km do kopce — stačí jít 30–45 min nahoru a zpět, nemusíš na vrchol. Vstup zdarma.'},
+      {time:'09:30', text:'Nishiki Market — kjótská kuchyně', tip:'JR zpět na Kyoto Station + metro Karasuma Line → Shijo (celkem ~20 min). Degustace: tofu, wagashi, tamagoyaki (vajená role), nakládaná zelenina. S dětmi ideální — stánky jsou otevřené a vše si můžen dostat. Oběd přímo v tržnici.'},
+      {time:'11:30', text:'Nanzenji — chrám a akvaduk', tip:'Metro Karasuma Line → Keage (15 min, 260 ¥). Sanmon (hlavní brána) zdarma, výhled z vrcholu. Nanzenji-in zahrada (300 ¥). Meiji-era akvaduk přímo v areálu — fotogenické místo. Počítá 45–60 min.'},
+      {time:'13:00', text:"Philosopher's Path — procházka podél kanálu", tip:'2 km pěšky severním směrem od Nanzenji → končí u Ginkakuji (Stříb. pavilon). Lemováno kavárničkami a keramickými obchůdk. V říjnu zeleno, bude tu krásně. Ginkakuji: vstupné 500 ¥, otevřeno 8:30–17:00. Počítá 60–75 min včetně Ginkakuji.'},
+      {time:'15:00', text:'Volný čas — kavárna nebo odpočinek', tip:'Podél Philosopher’s Path je řada malých kaváren a obchůdk. Ideální čas na kávu a japonské swěčiny před večeří. Nebo krátká zastávka v Eikando Zenrinji (maplová zahrada, 600 ¥) po cestě.', opt:'Volitelné: Eikando Zenrinji — chrámová zahrada se zdejšími maplovými stromy, 5 min od Philosopher’s Path (600 ¥).'},
+      {time:'17:30', text:'Večeře v Pontocho Alley', tip:'Autobus 17 nebo 203 ze zastávky Ginkakuji-michi → Kawaramachi-Sanjo (~20 min, 230 ¥). Pontocho: klidnější než Gion, restaurace od 17:00. S dětmi doporučujeme ramen nebo yakitori — šílené menú nemí.ó. Atmosféra nejlepší od 18:30 kdy se rozsvítí lucerny.'},
+      {time:'19:30', text:'Zpět do WeBase', tip:'Pěšky ~15 min nebo metro Keihan Line ze Gion-Shijo → Shijo (1 min, 170 ¥).'},
   ]},
-  { num:8, alert:{type:'info', text:'Sobota — Kinkakuji a Ryoanji budou přeplněné, ale méně než v neděli. Začněte Kinkakuji hned po otevření v 9:00. Odpoledne Philosopher\u2019s Path a Nanzenji jsou klidnější.'}, transport:[
-      { icon:'🎫', text:'Denní bus pass (Kyoto City Bus One-Day Pass): 600 ¥ dospělí / 300 ¥ děti — pro rodinu 2 700 ¥. Vyplatí se při 3+ jízdách autobusem. Koupit u řidiče nebo v Kyoto Station Bus Info Center (severní strana).' },
-      { icon:'🚌', text:'WeBase Kyoto → Kinkakuji: metro Karasuma Line ze Shijo na Kitaoji (7 min, 260 ¥), pak autobus 204 nebo 205 na Kinkakuji-michi (15 min, 230 ¥). Nebo přímý autobus 12 ze Shijo Kawaramachi na Kinkakuji-michi (~35 min, 230 ¥) — bez přestupu.', note:'Doporučujeme metro + autobus — rychlejší a méně přeplněné než přímý bus ze Shijo.' },
-      { icon:'🚶', text:'Kinkakuji → Ryoanji: autobus 204 nebo 205 (5 min, 230 ¥) nebo pěšky ~20 min na západ.' },
-      { icon:'🚌', text:'Ryoanji → Nanzenji: autobus 204 na Kitaoji, přestup na 5 směr Nanzenji (45 min celkem) — nebo taxi ~15 min (~1 500 ¥). Nanzenji leží na východě Kjóta, vzdálenost je velká.' },
-      { icon:'🚶', text:"Nanzenji → Philosopher's Path → Nijo Castle: Philosopher's Path pěšky ~2 km jižním směrem (25 min). Nijo Castle pak autobusem 202 nebo 204 ze zastávky Ginkakuji-michi na Nijojo-mae (20 min, 230 ¥)." },
-      { icon:'🚌', text:'Nijo Castle → WeBase Kyoto: autobus 9 nebo 50 na Shijo Karasuma (15 min, 230 ¥). Nebo metro Tozai Line ze stanice Nijojo-mae na Shijo (3 min, 220 ¥).' },
-    ], hours:[{icon:'🥇', text:'Kinkakuji (Zlatý pavilon): denně 9:00–17:00, vstupné 500 ¥'}, {icon:'⛩', text:'Ryoanji (kamenná zahrada): 8:00–17:00, vstupné 600 ¥'}, {icon:'🏯', text:'Nijo Castle: 8:45–17:00, pokladna do 16:00, vstupné 1 300 ¥'}], date:'so 31.10.', region:'kyoto', title:'Sever Kjóta', sub:'Kinkakuji, Ryoanji, Nijo Castle',
+  { num:8, alert:{type:'info', text:'Sobota — Kinkakuji bude plný, proto dorazit přesně na otevření v 9:00. Ryoanji a Nijō Castle odpoledne jsou klidnější. KH Pass platí dnes naposledy (den 8, so 31.10.) — zítra Den 9 (Arashiyama) hradit IC kartou.'}, transport:[
+      { icon:'🚌', text:'WeBase Kyoto → Kinkakuji: metro Karasuma Line ze Shijo → Kitaoji (7 min, 260 ¥), pak autobus 204 nebo 205 → Kinkakuji-michi (15 min, 230 ¥). Nebo přímý autobus 12 ze Shijo Kawaramachi (35 min, 230 ¥) bez přestupu.' },
+      { icon:'🚌', text:'Kinkakuji → Ryoanji: autobus 204 nebo 205 (5 min, 230 ¥) nebo pěšky 20 min na západ.' },
+      { icon:'🚌', text:'Ryoanji → Nijo Castle: autobus 205 směr Kyoto Station → přestup na 9 nebo 50 (40 min celkem, 230 ¥). Nebo taxi ~15 min (~1 500 ¥) — rodině pohodlnější a rychlejší.', note:'Denín bus pass (Kyoto City Bus One-Day Pass) 600 ¥ dosp. / 300 ¥ děti: pro rodinu 2 700 ¥. Vyplatí se při 3+ jízdách autobusem — dnes ideální.' },
+      { icon:'🚌', text:'Nijo Castle → WeBase Kyoto: metro Tozai Line ze Nijojo-mae → Shijo (3 min, 220 ¥). Nejrychlejší varianta.' },
+    ], hours:[{icon:'🥇', text:'Kinkakuji (Zlatý pavilon): denně 9:00–17:00, vstupné 500 ¥'}, {icon:'⛩', text:'Ryoanji (kamenná zahrada): 8:00–17:00, vstupné 600 ¥'}, {icon:'🏯', text:'Nijo Castle: 8:45–17:00, pokladna do 16:00, vstupné 1 300 ¥'}], date:'so 31.10.', region:'kyoto', title:'Sever Kjóta', sub:'Kinkakuji, Ryoanji, Nijo Castle',
+    detailPhotoPosition: '30% top',
     gallery: [
       { src:'d09-foto1.jpg', cap:'Kinkaku-ji — zlatý pavilon' },
       { src:'d09-foto2.jpg', cap:'Kinkaku-ji — podzimní zahrada' },
@@ -1636,22 +1650,28 @@ const days = [
     highlights: [
       { name:'Kinkaku-ji', desc:'Zlatý pavilon pokrytý plátkovým zlatem se odráží v zrcadlové hladině rybníka — jeden z nejslavnějších pohledů celého Japonska.' },
       { name:'Ryoan-ji', desc:'Zenová kamenná zahrada z 15. století — 15 kamenů v bílém písku, jejichž uspořádání dodnes nikdo plně neobjasnil.' },
-      { name:'Nijo Castle', desc:'Hrad šógunů z roku 1603 s proslulými "slavičími podlahami" které vrzají při každém kroku — bezpečnostní systém starý přes 400 let.' },
+      { name:'Nijō Castle', desc:'Hrad šógunů z roku 1603 s proslulými „slavičími podlahami“ které vrzají při každém kroku — bezpečnostní systém starý přes 400 let.' },
     ],
     items:[
-    {time:'09:00', text:'Kinkakuji — zlatý pavilon', tip:'dorazit hned po otevření'},
-    {time:'10:15', text:'Ryoanji — zahrada kamenů'},
-    {time:'11:30', text:'Nanzenji — impozantní brána, vstup zdarma'},
-    {time:'12:30', text:"Philosopher's Path — 2 km podél kanálu, kavárny a obchůdky"},
-    {time:'14:30', text:'Nijo Castle — hrad se "slavičími podlahami"'},
+      {time:'09:00', text:'Kinkakuji — Zlatý pavilon', tip:'Dorazit přesně na otevření — po 10:00 bude plno. Metro + autobus z WeBase ~25 min. Vstupné 500 ¥. Areál je malý, stačí 45–60 min. Počítá na rodinu +1 000 ¥ za bus.'},
+      {time:'10:15', text:'Ryoanji — zenová kamenná zahrada', tip:'Autobus 204/205, 5 min (230 ¥). Zahrada 15 kamenů — sedět a pozorovat, ne spěchat. Chrámový rybník a sad kolem jsou taky krásné. Celá návštěva 45–60 min. Vstupné 600 ¥.'},
+      {time:'11:30', text:'Oběd v okolí Ryoanji nebo Kinkakuji', tip:'V okolí je řada restaurací a kaváren. Tofu kuchyně jsou typická pro sever Kjóta (Ryoanji je součástí komplexu Myoshinji). Nebo svačina a oběd v 13:00 v Nijo Castle okolí.'},
+      {time:'13:00', text:'Nijō Castle — hrad šógunů', tip:'Autobus ze Ryoanji ~40 min nebo taxi ~15 min. Honmaru palác a Nōnimaru zahrada jsou nejhezkější části. „Slačičí podlahy“ (nightingale floors) — podlaha vrzá pro ochranu před vrahy. Vstupné 1 300 ¥. Areál velký — počítá 90 min.'},
+      {time:'15:30', text:'Volný odpoledne — Nishiki Market nebo rest', tip:'Nishiki Market je 15 min metrem od Nijo Castle (Tozai Line → Shijo). Nebo volno v hotelu — děti (i dospělí) po 4 dnech Kjóta uvítají pauzu. Zítra den 9 bude fyzicky náročnější (Arashiyama).', opt:'Volitelné: Nishiki Market — pokud jsi ho přeskočila v den 7, toto je druhá šance.'},
+      {time:'18:00', text:'Večeře a poslední večer v Kjótu', tip:'Doporučujeme Gion nebo Pontocho — důstojné rozloučení s městem. Nebo pokud máte oblíbenou restauraci z dřívějších dní, vraťte se tam.'},
   ]},
-  { num:9, alert:{type:'warning', text:'Neděle — Bamboo Grove bude přeplněný od 9:00. Dorazte před 8:00 pro klidné snímky. Tenryuji zahrada a Monkey Park jsou i odpoledne příjemné. Listí začíná měnit barvy — krásné, ale ne vrchol.'}, transport:[
-      { icon:'🚃', text:'WeBase Kyoto → Arashiyama – varianta A (doporučeno): pěšky 5 min na Shijo Station → metro Karasuma Line na Shijo → přestup Hankyu Kyoto Line na Kawaramachi → Katsura → Hankyu Arashiyama Line → Arashiyama (celkem ~30 min, ~310 ¥). Stanice Hankyu Arashiyama 5 min pěšky od Bamboo Grove.' },
-      { icon:'🚃', text:'WeBase Kyoto → Arashiyama – varianta B (JR): pěšky 10 min na Kyoto Station → JR Sagano Line na Saga-Arashiyama (15 min, 240 ¥). KH Pass dnes neplatí — platit IC kartou. Saga-Arashiyama je o trochu dál od Bamboo Grove než Hankyu (10 min pěšky).', note:'V neděli jsou vlaky i autobusy na Arashiyamu přeplněné — dorazte na zastávku brzy.' },
-      { icon:'🚌', text:'WeBase Kyoto → Arashiyama – varianta C (autobus): Kyoto City Bus 28 ze Shijo Karasuma na Arashiyama (~45 min, 230 ¥). Nejpomalejší — v neděli riziko zácpy.' },
-      { icon:'🐒', text:'V Arashiyamě: vše pěšky — Bamboo Grove, Tenryuji, Monkey Park, most Togetsukyo v okruhu 1–2 km.' },
-      { icon:'🚃', text:'Arashiyama → WeBase Kyoto: Hankyu Arashiyama zpět (doporučeno) nebo JR Sagano Line na Kyoto Station.' },
-    ], hours:[{icon:'🎋', text:'Bamboo Grove: 24/7, vstup zdarma — nejlepší před 8:00'}, {icon:'⛩', text:'Tenryu-ji (zahrada): 8:30–17:30, vstupné 500 ¥'}, {icon:'🐒', text:'Iwatayama Monkey Park: 9:00–16:30, vstupné 600 ¥ / 300 ¥ děti'}], date:'ne 1.11.', region:'kyoto', title:'Arashiyama', sub:'Bamboo Grove, Tenryuji, Monkey Park',
+  { num:9, alert:{type:'info', text:'Neděle — Bamboo Grove bude přeplněný od 9:00. Dorazte před 8:30 pro klidné snímky. Sagano Romantic Train: rezervováno — vlak Sagano 13, odjezd 15:02 z Torokko Saga, Rich Car No. 5 (sedadla 3A–3D, 4C). QR kód dostupný v den odjezdu.'}, transport:[
+      { icon:'🚃', text:'WeBase Kyoto → Torokko Saga (JR, doporučeno): pěšky 10 min na Kyoto Station → JR Sagano Line na Saga-Arashiyama (15 min, 240 ¥). KH Pass dnes neplatí — platit IC kartou. Torokko Saga = 10 min pěšky od Bamboo Grove.', note:'V neděli jsou vlaky přeplněné — dorazte na zastávku brzy.' },
+      { icon:'🚃', text:'WeBase Kyoto → Arashiyama – varianta Hankyu: pěšky 5 min na Shijo Station → Karasuma Line → Kawaramachi → Hankyu Kyoto Line → Katsura → Hankyu Arashiyama Line → Arashiyama (~30 min, ~310 ¥). Pozor: pak musíš dojít na Torokko Saga Station (20 min pěšky) na vlak 15:02.' },
+      { icon:'🐒', text:'V Arashiyamě: vše pěšky — Bamboo Grove, Tenryuji, most Togetsukyo, Monkey Park v okruhu 1–2 km.' },
+      { icon:'🚂', text:'Sagano Romantic Train: Torokko Saga (15:02) → Torokko Kameoka (15:25). Rezervováno — Rich Car No. 5, sedadla 3A, 3B, 3C, 3D, 4C. QR kód na telefonu (dostupný v den odjezdu). Přijít 10 min před odjezdem.' },
+      { icon:'🚃', text:'Torokko Kameoka → Kjóto: JR Sagano Line z Kameoka → Kyoto Station (~10 min, ~240 ¥).' },
+    ], hours:[
+      {icon:'🎋', text:'Bamboo Grove: 24/7, vstup zdarma — nejlepší před 9:00'},
+      {icon:'⛩', text:'Tenryu-ji (zahrada): 8:30–17:30, vstupné 500 ¥/os'},
+      {icon:'🐒', text:'Iwatayama Monkey Park: 9:00–16:30, vstupné 600 ¥ dospělí / 300 ¥ děti — 20 min do kopce'},
+      {icon:'🚂', text:'Sagano Romantic Train: odjezd 15:02 z Torokko Saga — rezervováno, Rich Car No. 5'},
+    ], date:'ne 1.11.', region:'kyoto', title:'Arashiyama', sub:'Bamboo Grove, Tenryuji, Monkey Park, Sagano vlak',
     gallery: [
       { src:'d08-foto1.jpg', cap:'Arashiyama Bamboo Grove' },
       { src:'d08-foto2.jpg', cap:'Tenryuji Temple' },
@@ -1660,17 +1680,25 @@ const days = [
     ],
     highlights: [
       { name:'Arashiyama', desc:'Malebná čtvrť na okraji Kjóta u řeky Hozu — obklopená bambusovými háji, chrámy a horami, nejkrásnější na podzim.' },
-      { name:'Bamboo Forest', desc:'Neskutečný tunel bambusů vysokých přes 20 metrů — světlo filtrované přes zelené stébla vytváří atmosféru jako z jiného světa.' },
+      { name:'Bamboo Grove', desc:'Neskutečný tunel bambusů vysokých přes 20 metrů — světlo filtrované přes zelené stébla vytváří atmosféru jako z jiného světa. Dorazit před 9:00 pro klidné fotky.' },
       { name:'Tenryuji Temple', desc:'Chrám UNESCO s proslulou zahradou z 14. století — rybník, kameny a upravené stromy v dokonalé harmonii s horou v pozadí.' },
-      { name:'Monkey Park', desc:'Na kopci nad Arashiyamou žije volně 120 japonských makaků — odtud je jeden z nejkrásnějších výhledů na celé Kjóto.' },
-      { name:'Řeka Hozu & Togetsukyo Bridge', desc:'Ikonický dřevěný most přes řeku Hozu s podzimním zbarvením hor v pozadí — symbol Arashiyamy a jeden z nejfotografovanějších záběrů Kjóta.' },
+      { name:'Togetsukyo Bridge', desc:'Ikonický dřevěný most přes řeku Hozu s podzimním zbarvením hor v pozadí — symbol Arashiyamy a jeden z nejfotografovanějších záběrů Kjóta.' },
+      { name:'Monkey Park', desc:'Na kopci nad Arashiyamou žije volně 120 japonských makaků — odtud je jeden z nejkrásnějších výhledů na celé Kjóto. 20 minut do kopce, stojí to za to.' },
+      { name:'Sagano Romantic Train — Rich Car', desc:'Otevřený vůz č. 5 bez oken — 25 minut jízdy kaňonem řeky Hozu s výhledy na bambus a podzimní stromy. Rezervováno: Sagano 13, 15:02 z Torokko Saga, sedadla 3A–3D a 4C.' },
     ],
     items:[
-    {time:'07:30', text:'Bamboo Grove — před davem', tip:'neděle — dorazit co nejdříve'},
-    {time:'09:00', text:'Tenryuji — chrám se zahradou'},
-    {time:'10:30', text:'Monkey Park — makakové s výhledem na Kjóto'},
-    {time:'13:00', text:'Řeka Hozu + most Togetsukyo', opt:'volitelné: Sagano Scenic Railway, kimono'},
-  ]},
+      {time:'08:30', text:'Příjezd Saga-Arashiyama / Torokko Saga', tip:'JR Sagano Line z Kyoto Station (15 min, 240 ¥). Platit IC kartou — KH Pass dnes neplatí.'},
+      {time:'08:45', text:'Bamboo Grove — ranní procházka', tip:'Vstup od severu (od Okochi Sanso) — jdeš proti proudu davů. Nejkrásnější světlo ráno.'},
+      {time:'09:15', text:'Tenryuji — zahrada UNESCO', tip:'Vstup 500 ¥/os. Otevírá 8:30. Severní brána vede přímo do Bamboo Grove.'},
+      {time:'10:15', text:'Togetsukyo Bridge — most přes řeku Hozu', tip:'Ikonický výhled na hory s podzimními barvami. Projít most a zpět — 5 minut, zdarma.'},
+      {time:'10:45', text:'Monkey Park Iwatayama — makakové s výhledem na Kjóto', tip:'20 minut do kopce pěšky. Vstup 600 ¥ dospělí / 300 ¥ děti. Krmení makaků přes mřížku uvnitř domečku (banány, arašídy za pár ¥). Výhled na celé Kjóto.'},
+      {time:'12:15', text:'Oběd u řeky — oblast kolem Togetsukyo mostu', tip:'Restaurace s výhledem na řeku Hozu a hory. Arashiyama je proslulá tofu specialitami a soba nudlemi.'},
+      {time:'13:30', text:'Volný čas — procházka, nákupy', tip:'Oblast u Tenryuji má hezké obchůdky s keramikou, bambusovým zbožím a wagashi. Nebo posedět u řeky.'},
+      {time:'14:45', text:'Přesun na Torokko Saga Station', tip:'10 minut pěšky od Bamboo Grove. Přijít včas — vlak odjíždí přesně v 15:02.'},
+      {time:'15:02', text:'🚂 Sagano Romantic Train — Rich Car No. 5', tip:'Sedadla 3A, 3B, 3C, 3D, 4C. Otevřený vůz bez oken — vzít bundu, v listopadu bude chladno. QR kód na telefonu (dostupný od rána 1.11.). 25 minut jízdy kaňonem řeky Hozu.'},
+      {time:'15:25', text:'Torokko Kameoka — přestup na JR zpět do Kjóta', tip:'JR Sagano Line Kameoka → Kyoto Station (~10 min, ~240 ¥).'},
+      {time:'17:00', text:'Večeře v Kjótu — poslední kjótský večer', tip:'Poslední noc v Kjótu. Doporučuji Gion čtvrť nebo Pontocho.'},
+    ]},
   { num:10, alert:{type:'warning', text:'Shibuya Sky: sunset sloty se vyprodávají během minut — koupit 14 dní předem v 16:00 SEČ (= půlnoc JST). Záloha při špatném počasí: Tokyo Metropolitan Government Building (zdarma, Shinjuku, do 23:00).'},
   transport:[
       { icon:'🚅', text:'Kjóto → Tokio: Tokaido Shinkansen Nozomi (2h 15 min), každých 10 min. Reserved seat 14 690 ¥/os, rodina ~62 000 ¥. Koupit zvlášť (KH Pass nepokryje). Odjezd Kjóto Station, příjezd Tokyo Station.', note:'Koupit předem online (SmartEX, Klook) nebo na přepážce Kjóto Station. Rezervujte 5 míst vedle sebe. Sedadlo E = výhled na Fuji.' },
@@ -2015,11 +2043,11 @@ function selectDay(d, i) {
   var alertEl = document.getElementById('detail-alert');
   if (d.alert) {
     alertEl.className = 'detail-alert ' + d.alert.type;
-    alertEl.textContent = d.alert.text;
+    alertEl.innerHTML = d.alert.text;
     alertEl.style.display = 'block';
   } else {
     alertEl.style.display = 'none';
-    alertEl.textContent = '';
+    alertEl.innerHTML = '';
   }
 
   // Otevírací doby
